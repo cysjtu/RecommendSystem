@@ -1,0 +1,7 @@
+这个模块是基于lenskit开发的推荐算法，svd算法为自己写的，其他的算法则调用lenskit自带的算法。另外对lenskit的KNN算法做了缓存优化，成为CachedItemSimilarMatrixModel。
+
+另外有一些DAO相关的文件。
+
+这个模块后来不用了，因为lenskit项目比较大，使用了一种依赖注入的方式达到高度可配置化。不过librec更加简洁，修改算法更加方便，所以后来转到librec开发。
+
+

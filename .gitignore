@@ -1,0 +1,11 @@
+*/target/
+target/
+lib/
+*/lib/
+*.jar
+.classpath
+.project/
+.DS_Store
+recommend_librec/librec/demo/Datasets/
+recommend_web/data.sql
+recommend_librec/librec/demo/Results/
